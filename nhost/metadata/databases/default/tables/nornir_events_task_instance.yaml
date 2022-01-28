@@ -1,0 +1,7 @@
+table:
+  name: task_instance
+  schema: nornir_events
+object_relationships:
+- name: task_execution
+  using:
+    foreign_key_constraint_on: task
