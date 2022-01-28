@@ -73,11 +73,11 @@ Or you can run the tests with `pytest -vs` several times to at least see how the
 
 ### Running it in production with nhost
 
-I will write a mor thorough guide but the gist of it is:
+I will write a more thorough guide but the gist of it is:
 
 1. Sign up with nhost
 2. create a free app
 3. Fork this repo
-4. In nhost's web console connect your up with your repository
+4. In nhost's web console connect your app with your repository
 5. Enjoy seeing how by just connecting the repo everything is provisioned for you (magic!)
 6. Replace `url` and `nhost_admin_secret` correspondingly (the web interface should tell you all that). Proper authentication with JWT will come later if there is interest in the RBAC solution.
