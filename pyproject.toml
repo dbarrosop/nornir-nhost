@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nornir-nhost"
+version = "0.1.0"
+description = "Nornir plugins that leverage nhost/graphql as backend"
+authors = ["David Barroso <dbarrosop@dravetech.com>"]
+license = "Apache 2"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+nornir = "^3.2.0"
+gql = {extras = ["all"], version = "^3.0.0"}
+
+[tool.poetry.dev-dependencies]
+black = "21.12b0"
+pylama = {extras = ["all"], version = "^8.3.7"}
+mypy = "^0.931"
+pyright = "^0.0.13"
+pytest = "^6.2.5"
+pytest-pythonpath = "^0.7.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
